@@ -1,0 +1,100 @@
+body, html {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f5f6fa;
+}
+
+/* Main container */
+.content {
+    min-height: 600px;
+    margin: 40px auto;
+    max-width: 1000px;
+    width: 90%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 15px;
+    color: #ff9f1a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #ff9f1a;
+    color: #fff;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+table, td, th {
+    border: none;
+}
+
+/* Action icons */
+.actions a {
+    margin: 0 6px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Update (plus) icon */
+.actions .update {
+    color: #27ae60;
+}
+
+/* Delete (bin) icon */
+.actions .delete {
+    color: #e74c3c;
+}
+
+.actions a:hover {
+    transform: scale(1.2);
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#content {
+    width: 280px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button, input[type="submit"] {
+    background: #ff9f1a;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #e68a00;
+}
+
+
